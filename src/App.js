@@ -1,7 +1,5 @@
-import "./App.css";
+const LinkedList = require("./LinkedList");
 
-function App() {
-	return <div className="App">cat</div>;
-}
+const ll = LinkedList.fromValues(10, 20, 30, 40);
 
-export default App;
+ll.print();
